@@ -1,0 +1,18 @@
+
+Run main.py: randomly choose replace method (SST and PS) in every generation
+
+Support only  SST replace -- run SSTreplace.py
+Support only  PS relace -- run PS.py
+
+Preprocess.py: preprocess given data set, scale can be changed as 1 or 10
+Initialize.py: initialize population, A.K.A  instruction sets
+               support change population size N (default 50) and instruction number X (default 8)
+Variation.py: randomly use mutation and crossover
+
+Support set number of generation G (default 100)and stop fitness Best (default 0.8) (stop when arrive at given fitness)
+
+change txt file in Preprocess.py line 8
+
+
+Not support: attributes are not number or letter(actually also support other ASCII characters)
+Not support: more than 4 types of classification (only 4 registers)
